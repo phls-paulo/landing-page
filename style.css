@@ -1,0 +1,160 @@
+body {
+ display: flex;
+ flex-direction: column;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #1F2937;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.bottom {
+    display: flex;
+    p
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 30px;
+}
+
+.first img {
+    width: 500px;
+    height: auto;
+    padding: 40px;
+    margin-right: 40px;
+
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.bottom button {
+    background-color: #457acf;
+    display: inline-block;
+    max-width: fit-content;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.mid {
+    color: #1F2937;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    gap: 40px;
+    flex: 1;
+    justify-content: space-between;
+
+
+}
+
+.container {
+    display: flex;
+}
+
+.container img {
+    width: 200px;
+    height: 200px;
+}
+
+.mid-down {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    padding: 20px 40px;
+
+}
+
+.quote {
+    display:flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: thin;
+
+
+
+}
+
+.who {
+    display: flex;
+    width: 85%;
+    justify-content: flex-end;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 50px;
+    color:#E5E7EB
+}
+
+.box {
+    padding: 20px;
+    background-color: #457acf;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.something {
+    display: flex;
+    flex-direction: column;
+}
+
+.end button {
+    border-radius: 10px;
+    max-width: fit-content;
+    padding: 8px;
+    font-size: 20px;
+    border: 5px solid white;
+    background-color: #457acf;
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px;
+    color: #E5E7EB;
+}
+
+.made-by {
+    flex: 1;
+    text-align: center;
+    font-size: 12px;
+    font-weight: thin;
+}
+
+a:link {
+    text-decoration: none;
+    color:#E5E7EB;
+}
